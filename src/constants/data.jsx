@@ -1,9 +1,9 @@
-import { Github, Linkedin, Twitter, Youtube } from "lucide-react";
+import {Linkedin, Twitter } from "lucide-react";
 
 export const personalInfo = {
   name: "Nitin Singh Pundir",
   role: "Graphics Designer",
-  bio: "I'm a Graphic Designer and detail-oriented Graphic Design graduate seeking an entry-level design position to apply strong visual design skills and bring fresh ideas to branding, digital media and print projects. Passoinate and imaginative graphic designer eager to bring innovative concepts, clean layouts, and strong visual storytelling to a collaborative creative environment.",
+  bio: "I'm a Graphic Designer graduate seeking an entry-level design position to apply visual design for branding, digital media and print projects.",
   email: "nitinpundir146@gmail.com",
   location: "India",
 };

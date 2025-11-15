@@ -111,11 +111,8 @@ function App() {
               <motion.div 
               key={i}
               className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer">
-                <video src={`projectvid${i}.mp4`}
-                muted
-                loop
-                playsInline
-                className="w-full h-full object-cover"></video>
+                <img src={`projectvid${i}.png`} className="w-full h-full object-cover"/
+                >
                 
                 <div className="absolute inset-0 bg-black/40 opacity-0
                 group-hover:opacity-100
