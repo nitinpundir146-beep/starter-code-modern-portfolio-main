@@ -1,4 +1,4 @@
-import {Linkedin, Twitter } from "lucide-react";
+import {Linkedin, Twitter, Briefcase } from "lucide-react";
 
 export const personalInfo = {
   name: "Nitin Singh Pundir",
@@ -19,7 +19,7 @@ export const socialLinks = [
   },
   {
     name: "Beehance",
-    icon: Linkedin,
+    icon: Briefcase,
     link: "https://www.behance.net/nitinpundir2",
     color: "hover:text-blue-400",
   },
@@ -56,10 +56,9 @@ export const tools = [
 ];
 
 export const goals = [
-  "Launch my own web agency",
-  "Start a web development Youtube channel",
-  "Gain more customers",
-  "Learn new frameworks and libraries",
+  "Launch my own design agency",
+  "Start a design tutor Youtube channel",
+  "Learn new tools and designing psychology",
 ];
 
 export const achievements = [
@@ -151,13 +150,21 @@ export const skills = [
     skills: ["Agile / Scrum", "SEO Basics", "Performance Optimization"],
   },
 ];
-
 export const certificates = [
-  "Microsoft Certified: Power Platform App Maker",
-  "Adobe Certified Expert: After Effects",
-  "Frontend Developer Nanodegree - Udacity",
-  "Docker Essentials - Coursera",
+  {
+    title: "Great Learning : Intro to Graphic Design with Photoshop",
+    url: "https://www.mygreatlearning.com/academy/learn/intro-to-graphic-design"
+  },
+  {
+    title: "ITRC : Diploma in Computer Applications",
+    url: "https://www.itrc.ac.in/"
+  },
+  {
+    title: "Great Learning : Canva Essentials: Quick & Easy Design Skills",
+    url: "https://www.canva.com/"
+  }
 ];
+
 
 export const animatedBlobs = [
   {

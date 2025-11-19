@@ -305,13 +305,22 @@ function App() {
               <span>Certificates</span>
             </h2>
             <ul className="space-y-2 text-sm text-slate-400">
-              {certificates.map((cert, i) => (
-                <li key={i} className='flex items-center gap-2'>
-                  <span className='bullet bg-amber-600/50 group-hover:bg-amber-400'></span>
-                  {cert}
-                </li>
-              ))}
-            </ul>
+    {certificates.map((cert, i) => (
+      <li key={i} className="flex items-center gap-2">
+        <span className="bullet bg-amber-600/50 group-hover:bg-amber-400"></span>
+
+        <a
+          href={cert.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-amber-400 transition"
+        >
+          {cert.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+
           </motion.div>
         </motion.main>
       </div>
