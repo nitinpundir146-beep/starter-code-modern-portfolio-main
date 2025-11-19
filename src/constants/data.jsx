@@ -26,7 +26,7 @@ export const socialLinks = [
   {
     name: "Instagram",
     icon: Twitter,
-    link: "https://www.instagram.com/nitin__pundir__00/",
+    link: "https://www.instagram.com/design_with_nitin/",
     color: "hover:text-sky-400",
   },
 ];
