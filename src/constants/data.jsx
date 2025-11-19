@@ -153,7 +153,7 @@ export const skills = [
 export const certificates = [
   {
     title: "Great Learning : Intro to Graphic Design with Photoshop",
-    url: "https://www.mygreatlearning.com/academy/learn/intro-to-graphic-design"
+    url: "#"
   },
   {
     title: "ITRC : Diploma in Computer Applications",
@@ -161,7 +161,7 @@ export const certificates = [
   },
   {
     title: "Great Learning : Canva Essentials: Quick & Easy Design Skills",
-    url: "https://www.canva.com/"
+    url: "#"
   }
 ];
 
