@@ -157,7 +157,7 @@ export const certificates = [
   },
   {
     title: "ITRC : Diploma in Computer Applications",
-    url: "https://www.itrc.ac.in/"
+    url: "https://drive.google.com/file/d/1-zIBU4Rgj-J7okDVg20xXKaEQofm-6fP/view?usp=sharing"
   },
   {
     title: "Great Learning : Canva Essentials: Quick & Easy Design Skills",
