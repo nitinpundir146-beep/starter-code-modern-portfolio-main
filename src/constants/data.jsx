@@ -39,13 +39,6 @@ export const experiences = [
     desc: "Building fast, accessible, and visually engaging web apps using React, Next.js, and Tailwind CSS. Collaborating with clients to turn design ideas into responsive, high-performance websites.",
     color: "violet",
   },
-  {
-    title: "Web Developer Intern",
-    company: "Freelance",
-    period: "2021 — 2023",
-    desc: "Developed internal dashboards and small-scale SaaS tools with React and Node.js. Improved UI performance and introduced reusable component systems for faster development.",
-    color: "cyan",
-  },
 ];
 
 export const tools = [
