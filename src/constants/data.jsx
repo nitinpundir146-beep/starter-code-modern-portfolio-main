@@ -36,7 +36,7 @@ export const experiences = [
     title: "Graphic Designer",
     company: "Freelance",
     period: "2023 — Present",
-    desc: "Building fast, accessible, and visually engaging web apps using React, Next.js, and Tailwind CSS. Collaborating with clients to turn design ideas into responsive, high-performance websites.",
+    desc: "Creating clean, eye-catching designs that help brands stand out. Working with clients to turn ideas into clear visuals, from logos and social media graphics to simple layouts and marketing materials.",
     color: "violet",
   },
 ];
