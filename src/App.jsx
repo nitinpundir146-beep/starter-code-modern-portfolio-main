@@ -99,32 +99,42 @@ function App() {
           </motion.div>
 
           <motion.div variants={itemVariants}
-          className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4"
-          >
-            <h2 className="section-title">
-              <Trophy size={20} className="text-violet-400"/>
-              <span>Projects</span>
-            </h2>
+        className="card card-violet md:col-span-1 row-span-4 flex flex-col gap-4"
+      >
+        <h2 className="section-title">
+          <Trophy size={20} className="text-violet-400"/>
+          <span>Projects</span>
+        </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
-              {projects.map((project, i) => (
-              <motion.div 
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
+          {projects.map((project, i) => (
+            <motion.div 
               key={i}
-              className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer">
-                <img src={`projectvid${i}.png`} className="w-full h-full object-cover"/
+              className="relative group rounded-xl overflow-hidden w-full aspect-video cursor-pointer"
+            >
+              <img 
+                src={project.img} 
+                className="w-full h-full object-cover"
+              />
+
+              <div className="absolute inset-0 bg-black/40 opacity-0
+                group-hover:opacity-100 transition-opacity duration-300 
+                flex items-center justify-center"
+              >
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="gradient-btn flex items-center gap-1"
                 >
-                
-                <div className="absolute inset-0 bg-black/40 opacity-0
-                group-hover:opacity-100
-                transition-opacity duration-300 flex items-center justify-center">
-                  <button className="gradient-btn">
-                    Open Project
-                    <ExternalLink size={14}/>
-                  </button>
-                </div>
-              </motion.div>
-              ))}</div>
-          </motion.div>
+                  Open Project
+                  <ExternalLink size={14} />
+                </a>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
 
           <motion.div
           variants={itemVariants}

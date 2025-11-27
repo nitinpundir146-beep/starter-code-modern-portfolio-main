@@ -8,7 +8,15 @@ export const personalInfo = {
   location: "India",
 };
 
-export const projects = [1, 2, 3, 4, 5, 6];
+export const projects = [
+  { img: "logo-work.png", link: "https://drive.google.com/drive/folders/1gBFg1d5-5xWKWge5O2JCw6q9yIsm9145?usp=drive_link" },
+  { img: "campaign-work.png", link: "https://drive.google.com/drive/folders/1ykm6xgiBrZUju5XDjIFuj3-0j5orFInB?usp=drive_link" },
+  { img: "projectvid2.png", link: "https://drive.google.com/file/d/1ugnkd2Z5eeHXYUIqpeMd1QRBhtYrac6j/view" },
+  { img: "projectvid3.png", link: "https://drive.google.com/file/d/19LeOcBFqDTM38JCwP0prROm7IxfpQ3K9/view?usp=sharing" },
+  { img: "projectvid4.png", link: "https://drive.google.com/file/d/1Us5Byp8AA_DMwa6146vRPs4vT_cjbyDu/view" },
+  { img: "projectvid5.png", link: "https://drive.google.com/file/d/1_HHWmsMgGYejTwL5SPOe2028UVgxJPwH/view" },
+];
+
 
 export const socialLinks = [
   {
